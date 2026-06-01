@@ -20,7 +20,7 @@ cd seip_assignment_1_2026
 minikube start --driver=docker
 ```
 
-**Step 3: Apply Kubernetes Manifests**
+**Step 3: Apply Kubernetes Configuration Files**
 
 ```bash
 kubectl apply -f k8s/
@@ -58,7 +58,7 @@ The application exposes three endpoints:
 
 
 **AI Integration**
-I used Claude to assist me throughout this assignment. I primarily used it to help me understand how Kubernetes works, how YAML syntax is formed and how to overcome some errors I encountered during the setup process.
+I used Claude to help me understand how Kubernetes works, how YAML syntax is formed and how to overcome some errors I encountered during the setup process.
 
 **Utility Analysis**
 The AI was helpful for:
