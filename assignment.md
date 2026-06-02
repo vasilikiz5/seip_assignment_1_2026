@@ -15,7 +15,7 @@ https://github.com/vasilikiz5/seip_assignment_1_2026
 
 The GitHub Actions CI/CD pipeline successfully builds and pushes the Docker image to GHCR on every push to the main branch.
 
-![description](images/image1.png)
+![CI/CD Proof](images/image1.png)
 ---
 
 ## Cluster State Proof
@@ -24,11 +24,13 @@ The Kubernetes cluster is running with three healthy pods, the deployment and th
 
 **kubectl get all -n default:**
 
-![description](images/image2.png)
+![kubectl get all output](images/image2.png)
+
 
 **kubectl get configmap,secret:**
 
-![description](images/image3.png)
+![kubectl get configmap and secret](images/image3.png)
+
 
 ---
 
@@ -38,15 +40,18 @@ The application endpoints respond correctly with the injected ConfigMap and Secr
 
 **Root endpoint (/):**
 
-![description](images/image5.png)
+![Root endpoint](images/image5.png)
+
 
 **Secure config endpoint (/secure-config):**
 
-![description](images/image4.png)
+![Secure config endpoint](images/image4.png)
+
 
 **Health endpoint (/health):**
 
-![description](images/image6.png)
+![Health endpoint](images/image6.png)
+
 
 ---
 
