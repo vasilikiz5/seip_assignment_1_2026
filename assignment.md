@@ -38,11 +38,11 @@ The application endpoints respond correctly with the injected ConfigMap and Secr
 
 **Root endpoint (/):**
 
-![description](images/image4.png)
+![description](images/image5.png)
 
 **Secure config endpoint (/secure-config):**
 
-![description](images/image5.png)
+![description](images/image4.png)
 
 **Health endpoint (/health):**
 
