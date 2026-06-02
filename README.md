@@ -10,7 +10,7 @@
 **Step 1: Clone the Repository**
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/seip_assignment_1_2026
+git clone https://github.com/vasilikiz5/seip_assignment_1_2026
 cd seip_assignment_1_2026
 ```
 
