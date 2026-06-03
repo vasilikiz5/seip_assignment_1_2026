@@ -1,6 +1,9 @@
 # Software Engineering in Practice — Assignment 1 (2026)
 ## Advanced DevOps: Production-Grade CI/CD, External Configuration, and Orchestration
 
+## Overview 
+This project takes a Node.js web application and builds the infrastructure around it. It packages it in a Docker container, automates the build and push proccess to GitHub Container Registry through Github Actions. The application is deployed it on a local Kubernetes cluster using Minikube and reads its configuration from Kubernetes ConfigMaps and Secrets, keeping sensitive data seperate from teh code.
+
 ## Prerequisites
 * Git
 * Docker Desktop
